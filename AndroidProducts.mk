@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_j7ltechn.mk
+    $(LOCAL_DIR)/twrp_j3xprolte.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_j7ltechn-user \
-    twrp_j7ltechn-userdebug \
-    twrp_j7ltechn-eng
+    twrp_j3xprolte-user \
+    twrp_j3xprolte-userdebug \
+    twrp_j3xprolte-eng

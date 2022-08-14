@@ -7,11 +7,11 @@
 # Inherit from common msm8916-common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/j7ltechn
+DEVICE_PATH := device/samsung/j3xprolte
 
 # Kernel
-BOARD_MKBOOTIMG_ARGS += --dt device/samsung/kernel-msm8916/j7ltechn/dt.img
-TARGET_PREBUILT_KERNEL := device/samsung/kernel-msm8916/j7ltechn/zImage
+BOARD_MKBOOTIMG_ARGS += --dt device/samsung/kernel-msm8916/j3xprolte/dt.img
+TARGET_PREBUILT_KERNEL := device/samsung/kernel-msm8916/j3xprolte/zImage
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
