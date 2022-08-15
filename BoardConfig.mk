@@ -10,7 +10,7 @@ include device/samsung/msm8916-common/BoardConfigCommon.mk
 DEVICE_PATH := device/samsung/j3xprolte
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_samsung_j3xprolte
+TARGET_INIT_VENDOR_LIB := init_samsung_j3xprolte
 TARGET_RECOVERY_DEVICE_MODULES := init_samsung_j3xprolte
 
 # Kernel
