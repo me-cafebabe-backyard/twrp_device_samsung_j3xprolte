@@ -11,3 +11,11 @@ COMMON_LUNCH_CHOICES := \
     twrp_j3xprolte-user \
     twrp_j3xprolte-userdebug \
     twrp_j3xprolte-eng
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/omni_j3xprolte.mk
+
+COMMON_LUNCH_CHOICES += \
+    omni_j3xprolte-user \
+    omni_j3xprolte-userdebug \
+    omni_j3xprolte-eng
