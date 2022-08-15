@@ -8,6 +8,9 @@
 
 #include <libinit_utils.h>
 
+namespace android {
+namespace init {
+
 void vendor_load_properties() {
     std::string bootloader = android::base::GetProperty("ro.bootloader", "");
 
@@ -17,4 +20,7 @@ void vendor_load_properties() {
         set_ro_build_prop("device", "j3xproltectc", true);
     else if (bootloader.find("J3119S") == 0)
         set_ro_build_prop("device", "j3xpro6mltechn", true);
+}
+
+}
 }
