@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "init_samsung_j3xprolte",
+    srcs: ["init_samsung_j3xprolte.cpp"],
+    whole_static_libs: ["//device/samsung/msm8916-common:libinit_samsung_msm8916"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
