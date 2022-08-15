@@ -8,8 +8,6 @@
 
 #include <libinit_utils.h>
 
-#include "vendor_init.h"
-
 void vendor_load_properties() {
     std::string bootloader = android::base::GetProperty("ro.bootloader", "");
 
